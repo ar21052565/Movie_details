@@ -4,7 +4,7 @@ let input = document.querySelector("input");
 let img = document.querySelector("img");
 let genre = document.querySelector(".genre");
 
-let url = "http://www.omdbapi.com/?apikey=82c77865&t=";
+let url = "https://www.omdbapi.com/?apikey=82c77865&t=";
 
 
 function updateInfo(actual_data) {
