@@ -2,7 +2,7 @@ let searchform = document.querySelector("form");
 let moviecontainer = document.querySelector(".movie-container");
 let input = document.querySelector("input");
 
-let baseURL = "https://www.omdbapi.com/?apikey=82c77865&t=";
+const baseURL = "https://www.omdbapi.com/?apikey=82c77865&t=";
 
 function updateInfo(actual_data) {
     // initially, make empty
